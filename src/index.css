@@ -1,8 +1,36 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.no-scrollbar{
-    -ms-overflow-style:none;
-    scrollbar-width: none;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.bg-hero-pattern_1 {
+  background-image: url("/src/assets/TeamCard/faceImage_1.png");
+}
+
+.bg-hero-pattern_2 {
+  background-image: url("/src/assets/TeamCard/faceImage_2.png");
+}
+
+.bg-hero-pattern_3 {
+  background-image: url("/src/assets/TeamCard/faceImage_3.png");
+}
+
+.bg-hero-pattern_4 {
+  background-image: url("/src/assets/TeamCard/faceImage_4.png");
+}
+
+.bg-hero-pattern_5 {
+  background-image: url("/src/assets/TeamCard/faceImage_5.png");
+}
+
+.bg-hero-pattern_6 {
+  background-image: url("/src/assets/TeamCard/faceImage_6.png");
+}
+
+.bg-hero-pattern_7 {
+  background-image: url("/src/assets/TeamCard/faceImage_7.png");
 }
